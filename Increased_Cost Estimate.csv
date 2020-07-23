@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,33217.92,9595.424200000001,148363.01,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 16, Peak: 80, Duration of peak: 8 Hr 30 Min)), Data transfer cost (2662.31), Advance EC2 instance (c4.2xlarge), Pricing strategy (EC2 Instance Savings Plans 1 Year  Full upfront)"
+My Estimate,US East (N. Virginia),S3 Standard,0,50.7,608.40,USD,S3 Standard storage (1500 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,1791.91,21502.92,USD,"Data Transfer, Data transfer cost (1791.91)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,503.1,6037.20,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,954.45,11453.40,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,46255,3891.75,92956.00,USD,"Quantity (5), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.4xlarge), Additional backup storage (30 GB)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+# Changes #
+
+EC2,Increase instance type:t3.medium->c4.2xlarge
+EC2,Increase minimum number of instances: 8->16
+EC2,Increase maximum number of instances:64->80	
+RDS,Increase instance type: r5.2xlarge->r5.4xlarge	
+RDS,Increase number of instances: 2->5 (To use as read-replicas)

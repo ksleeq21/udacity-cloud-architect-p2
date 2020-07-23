@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,2382.6428,28591.71,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 8, Peak: 64, Duration of peak: 8 Hr 30 Min)), Data transfer cost (1878.95), Advance EC2 instance (t3.medium), Pricing strategy (Spot)"
+My Estimate,US East (N. Virginia),S3 Standard,0,50.7,608.40,USD,S3 Standard storage (1500 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,1791.91,21502.92,USD,"Data Transfer, Data transfer cost (1791.91)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,503.1,6037.20,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,493.65,5923.80,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,9250,787.53,18700.36,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.2xlarge), Additional backup storage (30 GB)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+# Changes #
+EC2,Use spot instances
+EC2,Improve data volume for Outbound Data Transfer up to 30%
+S3,Improve Image processing algorithm and reduce the size of photo up to 30%
+RDS,MSSQL,Use smaller instance type: db.r5.4xlarge->db.r5.2xlarge			
+ELB,Improve data volume by refactoring message format and reducing redundant/unnecessary parameters: 20TB->10TB
+NAT,REduce Data Processed per NAT Gateway by refactoring messages: 10TB->2TB
