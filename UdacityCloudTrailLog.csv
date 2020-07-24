@@ -1,8 +1,158 @@
 Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
-a9442378-7421-47aa-80dd-37080771333a,"2020-07-22, 05:28:04 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,24.19.49.168
-e38283ed-5592-4dc4-878a-5c11afdd2e7b,"2020-07-22, 05:28:04 PM",klee0201,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXVATY2RARUCYY45MI""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::526174966849:group/Reviewers""}]",,us-east-1,,24.19.49.168
-51011086-9ca8-44b0-a706-a5e42a11192c,"2020-07-22, 05:27:47 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,24.19.49.168
-5778d224-33d1-40ea-8c85-be4dac9c7c35,"2020-07-22, 05:27:47 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,24.19.49.168
-82fc3e9d-1177-4909-9b2a-8237b4af3142,"2020-07-22, 05:27:47 PM",klee0201,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::526174966849:group/CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXVATY2RA66E35EBPB""}]",,us-east-1,,24.19.49.168
-4a06bddb-b1f7-4c82-a6e3-701a318529d8,"2020-07-22, 05:25:45 PM",klee0201,UpdateAccountPasswordPolicy,,,,us-east-1,,24.19.49.168
-8c703107-3e18-4992-b2f9-49ba8546fd22,"2020-07-22, 05:24:49 PM",klee0201,UpdateAccountPasswordPolicy,,,,us-east-1,,24.19.49.168
+d6c477a3-f6a9-4789-8315-0fc14853b267,"2020-07-23, 05:57:53 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+b9255ad1-85ce-4ea1-85af-7a028ff5629a,"2020-07-23, 05:56:56 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+d89e987d-d53d-4467-8f1d-a10cdafdbbec,"2020-07-23, 05:56:56 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+a6feed83-1257-40e9-914c-41a0164ec8a9,"2020-07-23, 05:56:19 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+ca021ef5-82a0-4cde-ad6b-e167623cb73d,"2020-07-23, 05:56:19 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+14c45c69-ade7-4096-b036-1f1720484128,"2020-07-23, 05:55:56 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+29ef9947-c362-4b04-bcdf-bbc7b1a4e522,"2020-07-23, 05:55:56 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+cee9b194-5607-427f-aefb-7030bd0e8e89,"2020-07-23, 05:55:56 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+359ad3e9-4625-4dbb-9425-9cd80e487818,"2020-07-23, 05:55:48 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+8160adf2-8413-4bb2-abc3-ef1306773a9b,"2020-07-23, 05:55:48 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+ad7a109a-8a18-44b8-b730-1b8968d78533,"2020-07-23, 05:55:48 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+ca4b2800-91cc-4b92-a3e5-c565d0874fba,"2020-07-23, 05:55:48 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+002dbbd0-1259-49df-bf10-84f871693b15,"2020-07-23, 05:55:34 PM",klee0201,ListTags,,,,us-west-2,,24.19.49.168
+b60efdad-f267-49f3-9c31-69ca855471e4,"2020-07-23, 05:55:34 PM",klee0201,GetInsightSelectors,,,,us-west-2,InsightNotEnabledException,24.19.49.168
+b8f20b44-7ea4-42ec-9b9c-75f7c126e8f5,"2020-07-23, 05:55:34 PM",klee0201,GetEventSelectors,,,,us-west-2,,24.19.49.168
+09a9b3d6-3da8-433b-95cc-e1d4fd8591c1,"2020-07-23, 05:55:33 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+e1086e79-eb8e-4aa0-b466-20344490792b,"2020-07-23, 05:55:33 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+5a1d446b-d6a0-448f-a550-e8c7901af21f,"2020-07-23, 05:55:32 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+618ae7d8-5c2a-42db-8b0b-ef094d6e04f6,"2020-07-23, 05:55:32 PM",klee0201,ListBuckets,,,,us-west-2,,24.19.49.168
+2cebb7e4-76c4-4ee3-8d59-4a788e7568aa,"2020-07-23, 05:55:24 PM",klee0201,GetBucketLocation,,,,us-west-2,,24.19.49.168
+4ccdd1b0-7849-48e5-910c-a47e78e0f4f8,"2020-07-23, 05:55:24 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+594b0939-fd4d-4386-8f54-f07f9069c6bb,"2020-07-23, 05:55:24 PM",klee0201,ListTags,,,,us-west-2,,24.19.49.168
+784a227b-db3e-4f27-b2d9-d287724fdf41,"2020-07-23, 05:55:24 PM",klee0201,ListKeys,,,,us-west-2,,24.19.49.168
+8fa92e44-f3c1-4e8b-88c8-8a88d289dda1,"2020-07-23, 05:55:24 PM",klee0201,GetInsightSelectors,,,,us-west-2,InsightNotEnabledException,24.19.49.168
+a49c3807-4f16-4dc3-8176-c8cc07db201f,"2020-07-23, 05:55:24 PM",klee0201,ListTopics,,,,us-west-2,,24.19.49.168
+a612da8d-8f55-4713-9691-3c4193fc2a33,"2020-07-23, 05:55:24 PM",klee0201,ListKeys,,,,us-west-2,,24.19.49.168
+c6b48aa5-f43d-4821-bed1-94feba1d4103,"2020-07-23, 05:55:24 PM",klee0201,ListAliases,,,,us-west-2,,24.19.49.168
+f8a85264-ebcd-4965-b0d1-9f71730b2fe9,"2020-07-23, 05:55:24 PM",klee0201,ListAliases,,,,us-west-2,,24.19.49.168
+f3376ff1-95b7-4506-874c-99b1b61e4516,"2020-07-23, 05:55:23 PM",klee0201,GetEventSelectors,,,,us-west-2,,24.19.49.168
+40bc71bf-082a-4046-ab9c-1747e756f5d7,"2020-07-23, 05:55:22 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+35201931-e329-45e7-bf11-3f7d210156d8,"2020-07-23, 05:53:47 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+6085f12a-9088-4ef6-bb72-e96a811f9bcf,"2020-07-23, 05:53:47 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+e8e043e5-0535-4b13-bbca-97455c0c21f4,"2020-07-23, 05:53:47 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+89a10c01-6e5d-446d-bd31-36a78c34f997,"2020-07-23, 05:53:39 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+dac68ba7-89ba-4e0f-87f7-6acd57c32e78,"2020-07-23, 05:53:39 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+f40f1794-5a1a-4901-b0aa-16aa884b0b96,"2020-07-23, 05:53:39 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+b78316af-71fb-4297-926e-52fc2e0c2283,"2020-07-23, 05:52:48 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+cd977e53-3c3a-430f-8418-975930fc67c9,"2020-07-23, 05:52:48 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+f1e1518f-510e-4d16-8eab-a727071db6f2,"2020-07-23, 05:52:48 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+3422ce60-e235-46a4-b02b-3efe7b22c978,"2020-07-23, 05:52:39 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+5aa88b55-77eb-463a-b4bd-8e673aa6f406,"2020-07-23, 05:52:39 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+28cc6767-dc77-485b-8f5a-d175da040d50,"2020-07-23, 05:52:38 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+2bfad0ef-061d-4830-8424-e4f04f94d275,"2020-07-23, 05:52:12 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+2d481385-149f-43ee-a092-e08f4f9eefd2,"2020-07-23, 05:52:12 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+cead73c9-c014-455c-902b-bde7f7647012,"2020-07-23, 05:52:12 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+0938103a-2419-40cd-b196-f559888458c0,"2020-07-23, 05:52:10 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+1be72935-6421-4228-915f-5fc9cd56beaa,"2020-07-23, 05:52:10 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+5a6a48a6-8489-46e6-a6cd-a6f5ce73d4cc,"2020-07-23, 05:52:10 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+45e837f9-54d9-46a9-aeda-7f903b2c6530,"2020-07-23, 05:52:01 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+57f7c8cf-2d80-48b3-b10d-3f5bd5d59996,"2020-07-23, 05:52:01 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+b518e296-0c7b-4730-9026-6fbf79ab849b,"2020-07-23, 05:52:01 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+cd0ccd49-8251-4a34-89a4-4b255dd73653,"2020-07-23, 05:52:01 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+e695042c-dfd6-43f4-a42e-3e0063738a07,"2020-07-23, 05:52:01 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+11bbe57d-50e1-4111-a590-aeab08aa0e0a,"2020-07-23, 05:52:00 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+02555cec-aff6-4ec6-875b-74afdfae3307,"2020-07-23, 05:51:56 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+42ac1a11-1a24-4c5d-a93a-b65e3272540a,"2020-07-23, 05:51:56 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+e0102b7a-c602-4df4-83b2-3025cbd3e5ac,"2020-07-23, 05:51:55 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+e0a12923-8439-4031-9ad6-3ad56113d34a,"2020-07-23, 05:51:55 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+4ce54a0f-fdf7-44a5-8b8d-dc635f472117,"2020-07-23, 05:51:50 PM",klee0201,GetInsightSelectors,,,,us-west-2,InsightNotEnabledException,24.19.49.168
+4dcfa2d7-b756-434e-a2b4-0f6cc00dadde,"2020-07-23, 05:51:50 PM",klee0201,ListKeys,,,,us-west-2,,24.19.49.168
+5ae315fa-7413-41d4-91ee-c65ffa2901a3,"2020-07-23, 05:51:50 PM",klee0201,GetBucketLocation,,,,us-west-2,,24.19.49.168
+65d56557-5970-4f18-ae11-878ef80c6ce9,"2020-07-23, 05:51:50 PM",klee0201,ListTopics,,,,us-west-2,,24.19.49.168
+71acb592-f631-41b3-90bd-2bad384fc94b,"2020-07-23, 05:51:50 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+90f258f3-e8ad-4ae4-964c-94b66ca094d1,"2020-07-23, 05:51:50 PM",klee0201,ListAliases,,,,us-west-2,,24.19.49.168
+adfbd2fa-6109-4e43-8d85-3e9bc9d83c0a,"2020-07-23, 05:51:50 PM",klee0201,ListAliases,,,,us-west-2,,24.19.49.168
+aefd6220-db84-4c3f-b945-f700e310c95d,"2020-07-23, 05:51:50 PM",klee0201,ListKeys,,,,us-west-2,,24.19.49.168
+d3a79ff5-a301-4390-b3b3-2c7b174b65f3,"2020-07-23, 05:51:50 PM",klee0201,ListFunctions20150331,,,,us-west-2,,24.19.49.168
+1af17146-91f2-417e-964e-06a8a53c88d6,"2020-07-23, 05:51:49 PM",klee0201,GetEventSelectors,,,,us-west-2,,24.19.49.168
+e8a1865b-cea6-4fe0-805b-d8d135054e45,"2020-07-23, 05:51:49 PM",klee0201,ListTags,,,,us-west-2,,24.19.49.168
+8ece895f-3664-42fd-9af0-082bceb7896b,"2020-07-23, 05:51:47 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+a9a3513a-69f3-4071-9a8d-a4bf16f932eb,"2020-07-23, 05:51:28 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+e1f0430d-33ec-4557-b117-dc076869f9a8,"2020-07-23, 05:51:28 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+246b9611-e829-4fcf-9dbc-5976345a879d,"2020-07-23, 05:51:27 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+484c65c5-8aee-48ed-aba7-5d900dffc0bf,"2020-07-23, 05:51:27 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+4f969465-5d89-4439-9643-8a1f0147eab7,"2020-07-23, 05:51:27 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+5a7dfcab-e222-4160-aa29-597d44a80b3a,"2020-07-23, 05:51:27 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+f746df98-4eed-455a-8a0b-8621396d8b34,"2020-07-23, 05:51:27 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+4cad529c-0f66-45ee-a43d-63ff437e9280,"2020-07-23, 05:51:26 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+3e570415-7ff0-4b1f-b460-c766912d803e,"2020-07-23, 05:51:25 PM",klee0201,GetEventSelectors,,,,us-west-2,,24.19.49.168
+45f3cb3a-ac2b-4675-9721-7228ed116fdb,"2020-07-23, 05:51:25 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+4d69492b-98c4-44cd-b810-a95845101938,"2020-07-23, 05:51:25 PM",klee0201,DescribeConfigurationRecorders,,,,us-west-2,,24.19.49.168
+71414282-0b91-4a69-a778-39bc01b39aab,"2020-07-23, 05:51:25 PM",klee0201,GetTrailStatus,,,,us-west-2,,24.19.49.168
+9392ad29-791c-4173-9b19-b79e2ca16df4,"2020-07-23, 05:51:25 PM",klee0201,DescribeConfigurationRecorderStatus,,,,us-west-2,,24.19.49.168
+6405e7d8-f614-43c5-b031-611f18d56117,"2020-07-23, 05:51:24 PM",klee0201,ListBuckets,,,,us-west-2,,24.19.49.168
+860815f6-d7c3-4249-b9f3-7c2074073724,"2020-07-23, 05:51:24 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+8aec5fb9-309e-4611-9f4d-a99edae0c4d3,"2020-07-23, 05:51:24 PM",klee0201,LookupEvents,,,,us-west-2,,24.19.49.168
+e2e9820c-7833-497a-a714-40e5a2e01b78,"2020-07-23, 05:51:23 PM",klee0201,DescribeTrails,,,,us-west-2,,24.19.49.168
+7e97beef-1aee-4f19-ac2b-e575d095939e,"2020-07-23, 05:50:59 PM",CloudTrail,DescribeConfigurationRecorders,,,,us-west-2,AccessDenied,24.19.49.168
+cad171a6-d5b9-4137-875a-7d8f2e9afb15,"2020-07-23, 05:50:59 PM",CloudTrail,LookupEvents,,,,us-west-2,,24.19.49.168
+79ed843c-46f8-49ab-bdb5-c0f4f49496ea,"2020-07-23, 05:50:38 PM",CloudTrail,LookupEvents,,,,us-west-2,,24.19.49.168
+feb4eda8-3ae5-4916-a035-a14a25172879,"2020-07-23, 05:50:38 PM",CloudTrail,DescribeConfigurationRecorders,,,,us-west-2,AccessDenied,24.19.49.168
+8bb3f398-54ce-4950-8a8e-d80a77dfad19,"2020-07-23, 05:50:27 PM",CloudTrail,DescribeConfigurationRecorders,,,,us-west-2,AccessDenied,24.19.49.168
+b4294da1-fcc5-4ab3-a01a-4c0ebf89db96,"2020-07-23, 05:50:27 PM",CloudTrail,LookupEvents,,,,us-west-2,,24.19.49.168
+e916872e-ed91-40f7-84d2-5dfa27d6778c,"2020-07-23, 05:50:27 PM",CloudTrail,DescribeConfigurationRecorders,,,,us-west-2,AccessDenied,24.19.49.168
+2fcb53e5-abbd-4727-9331-890bb60cb79b,"2020-07-23, 05:50:26 PM",CloudTrail,LookupEvents,,,,us-west-2,,24.19.49.168
+57bf9b66-a70f-4391-963f-2cf5db2fc864,"2020-07-23, 05:50:26 PM",CloudTrail,DescribeTrails,,,,us-west-2,,24.19.49.168
+45d05930-2452-4c7d-8184-523db537ee8b,"2020-07-23, 05:49:21 PM",CloudTrail,DescribeTrails,,,,us-west-2,,24.19.49.168
+9484d452-7217-44cf-a583-f02081224589,"2020-07-23, 05:49:21 PM",CloudTrail,PutEventSelectors,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:us-west-2:526174966849:trail/Udacity_Trail""}]",,us-west-2,,24.19.49.168
+9566b070-b6d9-472c-b06a-6b4171584d9a,"2020-07-23, 05:49:21 PM",CloudTrail,StartLogging,CloudTrail Trail,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""}]",,us-west-2,,24.19.49.168
+b2f9994c-9c0e-48db-b61b-af9175dab5c3,"2020-07-23, 05:49:21 PM",CloudTrail,CreateTrail,CloudTrail Trail and 1 more,"[{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""Udacity_Trail""},{""resourceType"":""AWS::CloudTrail::Trail"",""resourceName"":""arn:aws:cloudtrail:us-west-2:526174966849:trail/Udacity_Trail""},{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""kl-udacity-cloudtrail-logs2""}]",,us-west-2,,24.19.49.168
+d525ce45-a647-4d51-9f44-fc227f97b3ce,"2020-07-23, 05:49:21 PM",CloudTrail,GetTrailStatus,,,,us-west-2,,24.19.49.168
+dacb422e-f288-4206-83e3-276b3ec9b15d,"2020-07-23, 05:49:21 PM",CloudTrail,GetTrailStatus,,,,us-west-2,,24.19.49.168
+ca521a13-28ee-4179-8bb0-6fc26ec144df,"2020-07-23, 05:49:20 PM",CloudTrail,CreateBucket,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""kl-udacity-cloudtrail-logs2""}]",,us-west-2,,24.19.49.168
+d66a7165-022d-48d3-b5b5-300dc24d98a1,"2020-07-23, 05:49:20 PM",CloudTrail,PutBucketPolicy,S3 Bucket,"[{""resourceType"":""AWS::S3::Bucket"",""resourceName"":""kl-udacity-cloudtrail-logs2""}]",,us-west-2,,24.19.49.168
+0c3118d7-3121-472f-af06-cc6a1479a991,"2020-07-23, 05:48:27 PM",CloudTrail,ListTopics,,,,us-west-2,,24.19.49.168
+4aa5e2ce-83e0-41b5-ac90-334a0fe7ec05,"2020-07-23, 05:48:27 PM",CloudTrail,DescribeTrails,,,,us-west-2,,24.19.49.168
+5d7958e4-0043-43b9-86d0-8bef4740a59e,"2020-07-23, 05:48:27 PM",CloudTrail,ListFunctions20150331,,,,us-west-2,,24.19.49.168
+6f7e246c-1d3c-4be0-817e-4b520a148854,"2020-07-23, 05:48:27 PM",CloudTrail,ListAliases,,,,us-west-2,,24.19.49.168
+a2f12f07-e7a0-409b-ae0b-11346882cd56,"2020-07-23, 05:48:27 PM",CloudTrail,ListKeys,,,,us-west-2,,24.19.49.168
+f43a832e-6402-4de9-adc7-6569b4549a0a,"2020-07-23, 05:48:22 PM",CloudTrail,ListBuckets,,,,us-west-2,,24.19.49.168
+624a5764-6af8-4599-ac5e-270ca9aeb39d,"2020-07-23, 05:48:21 PM",CloudTrail,DescribeTrails,,,,us-west-2,,24.19.49.168
+9349964a-0211-4793-86bb-f47b80483791,"2020-07-23, 05:47:45 PM",Accountant,ChangePassword,,,,us-east-1,,AWS Internal
+474c68f0-600b-4c47-9fe6-6a6948264a4a,"2020-07-23, 05:47:04 PM",CloudTrail,ChangePassword,,,,us-east-1,,AWS Internal
+f584cee1-b9bd-4bb5-9f0a-6aa9bbbfc0ae,"2020-07-23, 05:46:27 PM",klee0201,ListPolicies,,,,us-east-1,,24.19.49.168
+6104bac9-681b-4f1f-86bb-ce64943b7ab5,"2020-07-23, 05:46:26 PM",klee0201,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,24.19.49.168
+c6b1658e-fd77-4d34-b14b-7d5430b5b5b1,"2020-07-23, 05:46:26 PM",klee0201,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,24.19.49.168
+f086af2c-c78d-4fbf-886e-a6369fac11ac,"2020-07-23, 05:46:26 PM",klee0201,ListGroupsForUser,,,,us-east-1,,24.19.49.168
+5c797667-a6c0-48e6-ae8b-f6c1d4fa7af9,"2020-07-23, 05:46:25 PM",klee0201,ListUsers,,,,us-east-1,,24.19.49.168
+e27fa7c7-6bb8-4164-b1de-8a429d1098d5,"2020-07-23, 05:46:25 PM",klee0201,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAXVATY2RA777GYYNKA""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::526174966849:user/Accountant""}]",,us-east-1,,24.19.49.168
+3a8aee51-576a-4b4f-9b3d-704d168e4e81,"2020-07-23, 05:45:33 PM",klee0201,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,24.19.49.168
+5244efa0-f766-435c-9052-35eacef691c3,"2020-07-23, 05:45:33 PM",klee0201,ListPolicies,,,,us-east-1,,24.19.49.168
+b598f922-1730-4ff4-adf6-eaa149ab791c,"2020-07-23, 05:45:33 PM",klee0201,ListAccountAliases,,,,us-east-1,,24.19.49.168
+1f14044d-6bab-4af6-a046-3e889daebbea,"2020-07-23, 05:45:32 PM",klee0201,ListGroupsForUser,,,,us-east-1,,24.19.49.168
+5c4523c6-e96e-4b36-af69-71b273836ac6,"2020-07-23, 05:45:32 PM",klee0201,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,24.19.49.168
+87244b0b-e7d4-4a23-bc65-fb6b2ee89c9a,"2020-07-23, 05:45:32 PM",klee0201,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAXVATY2RAQTHREZYC3""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::526174966849:user/CloudTrail""}]",,us-east-1,,24.19.49.168
+bc4b3679-abf9-44ab-8283-31553e75f63e,"2020-07-23, 05:45:32 PM",klee0201,ListUsers,,,,us-east-1,,24.19.49.168
+06c72d86-0afb-4310-9b14-3c82b1c9f7ef,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+26de0892-252f-4d2a-b065-240524dd3c26,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+80d89204-d3a2-4051-8aa9-816b136c9938,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+889d8105-9f1a-45fd-8ee3-cca08d5efae7,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+cec1821a-4c54-48db-88a2-e803f6e676f6,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+f8ff25e9-d5d3-4925-b169-4c1ff8ca6d3d,"2020-07-23, 05:45:21 PM",klee0201,ListAttachedGroupPolicies,,,,us-east-1,,24.19.49.168
+254481e0-3d4c-4ff6-9dcd-b8f107e450aa,"2020-07-23, 05:45:08 PM",klee0201,GetAccountPasswordPolicy,,,,us-east-1,,24.19.49.168
+2fe8a76f-9c88-4c0d-a83d-ea922435c9ee,"2020-07-23, 05:45:02 PM",klee0201,ListAccessKeys,,,,us-east-1,,24.19.49.168
+898cdb39-7138-4418-8bad-1f16bd5cde1e,"2020-07-23, 05:45:02 PM",klee0201,ListPolicies,,,,us-east-1,,24.19.49.168
+95b46a3c-3d23-4b71-a265-e6897dedd7d7,"2020-07-23, 05:45:02 PM",klee0201,GetAccountPasswordPolicy,,,,us-east-1,,24.19.49.168
+d1d6cd4b-9fe3-49be-94d2-ee00af7c696b,"2020-07-23, 05:45:02 PM",klee0201,GetAccountSummary,,,,us-east-1,,24.19.49.168
+f8d12c6c-b76a-4b5b-96b9-b21abec2988d,"2020-07-23, 05:45:02 PM",klee0201,ListAccountAliases,,,,us-east-1,,24.19.49.168
+39b3810d-4491-46e7-82f3-8761be8327ff,"2020-07-23, 05:45:01 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+5fdbf21c-51a7-4897-871a-da337459b83f,"2020-07-23, 05:45:01 PM",klee0201,ListUsers,,,,us-east-1,,24.19.49.168
+755cb3ed-88bb-4704-a009-9461d405e9d3,"2020-07-23, 05:45:01 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+69973a0c-0ebf-4f5d-8dc9-babb3f7b2d75,"2020-07-23, 05:44:58 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+86c397ff-f125-4f47-808f-7f3c677f3a49,"2020-07-23, 05:44:58 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+d4149b68-102e-4e3a-880c-d8f8f68fc32a,"2020-07-23, 05:44:58 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+1aaf985a-c71f-48de-a93c-70772bc3073e,"2020-07-23, 05:44:57 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,24.19.49.168
+1e784cad-248d-4c56-a3df-f74be4fb1992,"2020-07-23, 05:44:57 PM",klee0201,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXVATY2RAVXI5GYGQQ""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::526174966849:group/Reviewers""}]",,us-east-1,,24.19.49.168
+859fffab-557a-4459-9d50-6e4c0ffb20bc,"2020-07-23, 05:44:57 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+ba1ffe36-064d-49d9-b733-3e0145ccd94d,"2020-07-23, 05:44:57 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+f9298799-738d-4b39-9934-2fb9c1324ead,"2020-07-23, 05:44:49 PM",klee0201,ListPolicies,,,,us-east-1,,24.19.49.168
+41ab050e-2a55-494e-9f18-38b346c14d5e,"2020-07-23, 05:44:42 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+4a13d3b4-0a9f-41dc-9479-53cf3239dfba,"2020-07-23, 05:44:42 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,24.19.49.168
+4c0c4dde-c6eb-4bec-8fc9-5ab586583fff,"2020-07-23, 05:44:42 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+4f278933-249f-48dc-9893-0a1953d16edb,"2020-07-23, 05:44:42 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+63651010-bc3c-433d-bad0-313276284f61,"2020-07-23, 05:44:42 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+989d3afd-ec13-4e15-86e1-2f1e187f911a,"2020-07-23, 05:44:42 PM",klee0201,ListGroups,,,,us-east-1,,24.19.49.168
+f390ba6e-9cb2-44db-94d3-a87a6ea45df4,"2020-07-23, 05:44:42 PM",klee0201,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,24.19.49.168
+bed9e6ee-c1d6-498f-9e80-ad8c4124cb6b,"2020-07-23, 05:44:41 PM",klee0201,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAXVATY2RAXPC273KOA""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::526174966849:group/CloudTrailAdmins""}]",,us-east-1,,24.19.49.168

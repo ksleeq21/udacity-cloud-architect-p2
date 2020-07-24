@@ -1,12 +1,16 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),Amazon EC2,0,2922.56,35070.72,USD,"Operating system (Linux), Quantity (32), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (m5.xlarge)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,6571.5828,78858.99,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), Data Transfer, Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 16, Peak: 64, Duration of peak: 8 Hr 00 Min)), Data transfer cost (184.23), Advance EC2 instance (m5.4xlarge), Pricing strategy (Spot)"
 My Estimate,US East (N. Virginia),S3 Standard,0,651.04,7812.48,USD,S3 Standard storage (20 TB per month)
 My Estimate,US East (N. Virginia),Data Transfer,0,921.51,11058.12,USD,"Data Transfer, Data transfer cost (921.51)"
 My Estimate,US East (N. Virginia),Elastic Load Balancing,0,227.51999999999998,2730.24,USD,Number of Application Load Balancers (2)
 My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,171.09,2053.08,USD,Number of NAT Gateways (1)
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,3251.496,39017.95,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.4xlarge)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,9726.887999999999,116722.66,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (db.r5.12xlarge)"
 My Estimate,US East (N. Virginia),Amazon Elastic IP,0,0.1,1.20,USD,"Number of EC2 instances (17), Number of EIPs per instance (1), Number of EIP remaps (1)"
 
 
 
 "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+"# CHANGES #"
+"EC2","Use bigger size of ec2 instance type and have more instances"
+"RDS","Use bigger size of DB instances"

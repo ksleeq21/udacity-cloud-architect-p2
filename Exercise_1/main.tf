@@ -16,3 +16,16 @@ resource "aws_instance" "Udacity_T2" {
         Name = "Udacity T2"
     }
 }
+
+
+# TODO: provision 2 m4.large EC2 instances named Udacity M4
+resource "aws_instance" "Udacity_M4" {
+  count = "2"
+    ami = "ami-0a243dbef00e96192"
+    instance_type = "m4.large"
+    subnet_id = "subnet-7c03c419"
+    tags = {
+        Project = "Udacity Cloud Architect Project"
+        Name = "Udacity M4"
+    }
+}
